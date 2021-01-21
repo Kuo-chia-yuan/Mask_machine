@@ -1,5 +1,5 @@
 <p>介紹 : 這是邏輯設計實驗課程，製作的模擬口罩販賣機，功能包含投入錢幣，選擇口罩數量、購買口罩、取消購買、賣出口罩、退錢。(所有過程皆為模擬，並無實體金幣或口罩)<p>
-<p>內容 : 用verilog寫，其中須運用clk、debounce、onepulse等function，完成後利用vivado將程式燒進FPGA板中，便能按下電路板上的button及switch，使電路板的七段顯示器和LED產生燈號。<p>
+<p>內容 : 用verilog寫，其中有運用clk、debounce、onepulse等function，完成後利用vivado將程式燒進FPGA板中，便能按下電路板上的button及switch，使電路板的七段顯示器和LED產生燈號。<p>
 <p>實作 : 共有五個過程，Initial state、Deposit state、Amount state、Release state、Change state，詳細如下。<p>
 <p>1. Initial state : 初始化階段，七段顯示器顯示0000，LED全暗燈，並進入Deposit state。<p>
 <p>2. Deposit state : 投幣階段，客人可投入5元或10元，投入金額將顯示於七段顯示器的右邊兩顆燈，最多不可超過45元。投幣結束後，若按下確認，進入Amount state；若按下取消(退款)，則進入Change state。<p>

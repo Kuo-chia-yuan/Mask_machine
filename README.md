@@ -10,4 +10,6 @@
 3. Amount state : 選擇口罩數量階段，客人可選擇購買口罩的數量，且數量不可超投入金額 / 5(一片口罩5元)，選擇的口罩數量將顯示於七段顯示器的左邊兩顆燈。若按下確認，進入Amount state；若按下取(退款)，則進入Change state。
 4. Release state : 購買成功階段，七段顯示器會出現MASK字樣，LED會持續閃爍5秒，代表賣出口罩。結束後進入Change state。
 5. Change state : 退錢階段，若購買數量*5<投入金額，或取消購買，販賣機皆會從10元先退款，<10元時才會退5元，如25->15->5->0。結束後返回Inital state。
-## 附上code、詳細report及demo影片https://www.youtube.com/watch?v=F1P1whgtG1w&feature=youtu.be
+
+## 附件
+附上code、詳細report及demo影片https://www.youtube.com/watch?v=F1P1whgtG1w&feature=youtu.be

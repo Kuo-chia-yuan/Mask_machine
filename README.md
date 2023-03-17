@@ -11,7 +11,5 @@
 4. Release state : 購買成功階段，七段顯示器會出現MASK字樣，LED會持續閃爍5秒，代表賣出口罩。結束後進入Change state。
 5. Change state : 退錢階段，若購買數量*5<投入金額，或取消購買，販賣機皆會從10元先退款，<10元時才會退5元，如25->15->5->0。結束後返回Inital state。
 
-![Uploading image.png…]()
-
 ## 附件
 附上code、詳細report及demo影片https://www.youtube.com/watch?v=F1P1whgtG1w&feature=youtu.be
